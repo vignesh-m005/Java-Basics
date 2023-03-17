@@ -22,7 +22,7 @@ public class Literals {
 		f = 1.2e3F;
 		System.out.println(d+" "+dou+" "+f);
 		
-		int b = 0b111; //Binary 
+		int b = 0b111; //Binary 0b or 0B
 		d = 123_234.2_3;
 		dou = 1_2_3_4.123;
 		double dd=1_____2_3;
