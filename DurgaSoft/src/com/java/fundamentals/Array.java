@@ -44,7 +44,7 @@ public class Array {
 		
 		System.out.println("---------------------------------------");
 		z = new int[4];
-		for(int i:z) System.out.println(i);
+		
 		a[0]=1;
 		a[1]=2;
 		a[2]=3;
