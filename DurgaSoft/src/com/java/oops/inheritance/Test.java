@@ -1,6 +1,6 @@
 package com.java.oops.inheritance;
 
-public class Test {
+public class Test implements C{
 
 	public static void main(String[] args) {
 		Parent p = new Parent();
@@ -16,6 +16,12 @@ public class Test {
 		
 		obj1.m1();
 		//obj1.m2();  
+	}
+
+	@Override
+	public void m1() {
+		// Only one method will be created for all 3 declarations
+		
 	}
 
 }
