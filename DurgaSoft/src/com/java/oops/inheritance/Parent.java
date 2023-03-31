@@ -6,6 +6,5 @@ public class Parent
 {
 	public void m1() {
 		System.out.println("Parent");
-		int[] arr=new int[Integer.MAX_VALUE];
 	}
 }
