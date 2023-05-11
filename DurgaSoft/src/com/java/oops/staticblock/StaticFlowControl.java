@@ -1,5 +1,7 @@
 package com.java.oops.staticblock;
 
+import com.java.oops.instancecontrolflow.InstanceControl;
+
 public class StaticFlowControl {
 	
 	static int x = 10;
@@ -13,7 +15,7 @@ public class StaticFlowControl {
 	public static void main(String[] args) {
 		m1();
 		System.out.println("main method");
-		
+		// InstanceControl in = new InstanceControl(); for instance control flow check
 	}
 	
 	public static void m1() {
