@@ -16,7 +16,7 @@ public class VarArgs {
 		System.out.println(p3.x);
 		C3 c3 = new C3();
 		System.out.println(c3.x);
-		P3 p = new P3();
+		P3 p = new C3();
 		System.out.println(p.x);
 	}
 
