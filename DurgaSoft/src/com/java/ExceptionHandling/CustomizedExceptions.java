@@ -18,6 +18,8 @@ public class CustomizedExceptions {
 
 class TooYoungException extends RuntimeException{
 
+	private static final long serialVersionUID = 1L;
+
 	public TooYoungException(String s) {
 		super(s);
 		
@@ -27,6 +29,8 @@ class TooYoungException extends RuntimeException{
 }
 
 class TooOldException extends RuntimeException{
+
+	private static final long serialVersionUID = 1L;
 
 	public TooOldException(String s) {
 		super(s);
