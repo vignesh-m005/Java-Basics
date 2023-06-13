@@ -1,6 +1,6 @@
 package com.java.MultiThreading;
 
-class IMyThreadExtendsThread extends Thread{
+class AMyThreadExtendsThread extends Thread{
 	
 	public void run() {
 		
@@ -12,11 +12,11 @@ class IMyThreadExtendsThread extends Thread{
 
 }
 
-public class IMyThreadExtendsThreadMain {
+public class AMyThreadExtendsThreadMain {
 	
 	public static void main(String[] args) { 
 		System.out.println(Thread.currentThread().getPriority());
-		IMyThreadExtendsThread thread = new IMyThreadExtendsThread(); //thread instantiation
+		AMyThreadExtendsThread thread = new AMyThreadExtendsThread(); //thread instantiation
 		thread.start(); //starting a thread
 		for(int i=0;i<10;i++) { //By main thread
 			System.out.println("Main thread");

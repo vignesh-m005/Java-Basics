@@ -1,6 +1,6 @@
 package com.java.MultiThreading;
 
-public class IIITreadPriority {
+public class CTreadPriority {
 
 	public static void main(String[] args) {
 		System.out.println("min: " + Thread.MIN_PRIORITY);

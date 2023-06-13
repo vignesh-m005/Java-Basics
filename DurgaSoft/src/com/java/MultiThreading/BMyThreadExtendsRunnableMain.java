@@ -1,6 +1,6 @@
 package com.java.MultiThreading;
 
-public class IIMyThreadExtendsRunnableMain {
+public class BMyThreadExtendsRunnableMain {
 
 	public static void main(String[] args) {
 		MyRunnable r = new MyRunnable();
