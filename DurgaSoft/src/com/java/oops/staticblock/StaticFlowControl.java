@@ -1,7 +1,5 @@
 package com.java.oops.staticblock;
 
-import com.java.oops.instancecontrolflow.InstanceControl;
-
 public class StaticFlowControl {
 	
 	static int x = 10;
