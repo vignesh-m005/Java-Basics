@@ -1,12 +1,14 @@
 package com.java.MultiThreading;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class BMyThreadExtendsRunnableMain {
 
 	public static void main(String[] args) {
 		MyRunnable r = new MyRunnable();
 		Thread t1 = new Thread(r);      // Target Runnable
 		t1.start(); 
-		
 		for(int i=0;i<10;i++) {
 			System.out.println("Main method");
 		}
