@@ -1,7 +1,11 @@
 package com.java.collection;
 
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Map.Entry;
+import java.util.Set;
 
 public class JMapDemo {
 
@@ -38,10 +42,8 @@ public class JMapDemo {
 		Integer i2 = new Integer(10);
 		System.out.println(i1==i2);
 		System.out.println(i1.equals(i2));
-
-		Dictionary<String, String> dictionary = new Hashtable<>();
-		dictionary.put("1", "1");
-		System.out.println(dictionary);
+		
+		
 	}
 
 }

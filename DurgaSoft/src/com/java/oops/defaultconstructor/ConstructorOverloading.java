@@ -14,10 +14,6 @@ public class ConstructorOverloading {
 		System.out.println("double arg cons");
 	}
 
-	public ConstructorOverloading(float d) {
-		System.out.println("float arg cons");
-	}
-
 	public static void main(String[] args) {
 		ConstructorOverloading o = new ConstructorOverloading();
 		ConstructorOverloading o1 = new ConstructorOverloading(10);
