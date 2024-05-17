@@ -14,7 +14,7 @@ public class InstanceControl {
 	}
 	
 	public static void main(String[] args) {
-		// InstanceControl in = new InstanceControl(); try with this
+		 InstanceControl in = new InstanceControl(); //try with this
 		System.out.println("main method");
 	}
 	private void m1() {

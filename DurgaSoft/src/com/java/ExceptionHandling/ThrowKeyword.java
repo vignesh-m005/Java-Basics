@@ -8,6 +8,7 @@ public class ThrowKeyword {
 		try {
 			int x = 10/0;
 		}catch(Exception e) {
+//			ThrowKeyword.e= (ArithmeticException) e;
 			//throw new ArithmeticException("/ by zero");
 		}
 		//case 1
